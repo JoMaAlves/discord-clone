@@ -1,0 +1,28 @@
+.server-icon-container {
+  .localizator {
+    width: 0.5rem;
+    background-color: $color-neutral-5;
+    margin-left: -0.25rem;
+
+    transition: height 0.2s;
+  }
+
+  .server-icon {
+    max-height: 48px;
+    max-width: 48px;
+    transition: border-radius 0.2s;
+
+    &.circle-border {
+      border-radius: 50%;
+    }
+
+    &.rounded-border {
+      border-radius: 30%;
+    }
+
+    img {
+      height: 48px;
+      width: 48px;
+    }
+  }
+}
