@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import DiscordIcon from "./DiscordIcon";
 import classNames from "classnames";
-import { IconTypes } from "../../common/enums/iconTypes";
 import ServerEntry from "../../common/interfaces/serverEntry";
 
 type Props = {

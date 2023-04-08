@@ -1,0 +1,11 @@
+.server-side-bar-container {
+  background-color: $color-neutral-1;
+  min-width: 4.5rem;
+  padding-top: 0.75rem;
+
+  .separator {
+    background-color: $color-neutral-4;
+    height: 0.125rem;
+    width: 2rem;
+  }
+}
